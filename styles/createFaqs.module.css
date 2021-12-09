@@ -1,0 +1,109 @@
+.loginModal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.passwordContainer {
+    padding: 20px;
+    border-radius: 2px 2px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+
+.passwordField {
+    padding: 10px 5px;
+    margin: 10px 0px;
+    align-self: center;
+    width: 100%;
+    
+}
+
+.questionField{
+    padding: 10px 5px;
+    /* margin: 10px 0px;
+    align-self: center;
+    width: 100%; */
+}
+.textField{
+    padding: 5px 5px;
+    min-height: 10vh;
+    margin-bottom: 10px;
+    /* margin: 10px 0px;
+    align-self: center;
+    width: 100%; */
+}
+
+.submitButton {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #3043F7;
+    border-radius: 2px 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.faqSubmitButton {
+    padding: 5px 10px;
+    background-color: #3043F7;
+    border-radius: 2px 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+/* .faqSubmitButton:hover{
+    transform: scale(1.05);
+} */
+.faqSubmitButton:active {
+    margin-left: 1px 1px 0;
+    box-shadow: -1px -1px 1px #000;
+    outline: 1px solid black;
+    transform: scale(0.9);
+    background-image: linear-gradient(to top, #f4f5f5, #dfdddd);
+}
+.submitButton:hover{
+    transform: scale(1.05);
+}
+
+.select {
+    padding: 10px 10px;
+}
+.label {
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .passwordContainer {
+        width: 80%;
+    }
+  }

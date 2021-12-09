@@ -1,0 +1,7 @@
+.normalbutton {
+    background-color: black;
+    width:fit-content;
+}
+.normalbutton:hover {
+    background-color: aliceblue;
+}

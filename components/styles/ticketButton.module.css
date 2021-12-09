@@ -1,0 +1,28 @@
+.container {
+    padding: 0.5rem 0.5rem;
+    border-color: #3043F7;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+
+.container:hover{
+    transform: scale(1.05);
+    background-color: #3043F7;
+    color: white;
+}

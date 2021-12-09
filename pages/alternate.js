@@ -1,18 +1,25 @@
+import Router, { useRouter } from 'next/router'
+import { useEffect } from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-
 export default function Alternate() {
+  const router = useRouter()
+  useEffect(() => {
+    // alert(window.location.href)
+  }, [])
   return (
     <View style={styles.container}>
       <Text accessibilityRole="header" style={styles.text}>
         Alternate Page
       </Text>
-
-      <Text style={styles.link} accessibilityRole="link" href={`/`}>
+      <Text style={styles.link} accessibilityRole="link" onPress={() => {
+        Router.push('/')
+      }}>
         Go Back
       </Text>
     </View>
   )
 }
+
 
 const styles = StyleSheet.create({
   container: {

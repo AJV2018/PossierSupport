@@ -1,0 +1,12 @@
+export const SET_DIMENSIONS = 'SET_DIMENSIONS'
+
+export const SET_SUPPORT_SECTIONS = 'SET_SUPPORT_SECTIONS';
+export const SET_SUB_CATEGORIES = 'SET_SUB_CATEGORIES'
+export const INIT_FAQS = 'INIT_FAQS'
+
+export const SET_LOADING = 'SET_LOADING'
+
+export const OPEN_SNACK_BAR = 'OPEN_SNACK_BAR';
+export const CLOSE_SNACK_BAR = 'CLOSE_SNACK_BAR';
+
+export const SET_STORE_DATA = 'SET_STORE_DATA';

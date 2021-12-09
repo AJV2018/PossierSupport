@@ -1,0 +1,36 @@
+.subCatText{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: black;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+.subCatText:hover{
+    text-decoration-line: underline;
+    /* color: blue; */
+    text-underline-position: below;
+}
+
+.subCatBox{
+    margin: 0.5rem 0;
+    background-color: #f7f7f7;
+    padding: 10px 10px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.innerSubCatRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.moreRegionBox {
+    padding: 0px 20px 10px;
+    background-color: #fff;
+    /* margin-top: 10px; */
+}
